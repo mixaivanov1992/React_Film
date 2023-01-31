@@ -1,0 +1,18 @@
+.film_component {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	> div{
+		width: 25em;
+	}
+	.genre_film{
+		margin-bottom: 1em;
+		.danger{
+			text-align: center;
+			color: red;
+		}
+	}
+	.save{
+		text-align: center;
+	}
+}

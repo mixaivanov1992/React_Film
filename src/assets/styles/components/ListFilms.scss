@@ -1,0 +1,27 @@
+.list_films_component{
+    h3{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    > .genre{
+        font-size: 1.5em;
+        margin-bottom: 0.5em;
+        margin-left: 1em;
+    }
+    > .film{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5em;
+        padding: 0.5em;
+        box-shadow: 0.25rem 0.25rem 0.6rem rgba(0, 0, 0, 0.05), 0 0.5rem 1.125rem rgba(75, 0, 0, 0.05);
+        border-radius: 0 0.5rem 0.5rem 0.5rem;
+        > div{
+            width: 25%;
+        }
+        .settings{
+            button{
+                margin-left: 0.5em;
+            }
+        }
+    }
+}

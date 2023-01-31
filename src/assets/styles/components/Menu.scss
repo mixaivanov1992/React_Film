@@ -1,0 +1,21 @@
+.menu_component{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    > div {
+        margin-bottom: 0.5em;
+        > a{
+            display: inline-block;
+            padding: 0.5em;
+            background-color: #0069d9;
+            border-color: #0062cc;
+            color: #fff;
+            border-radius: 0.25em;
+            text-decoration: none;
+        }
+    }
+    > .add_film,
+    > .add_genre{
+        margin-left: 0.5em;
+    }
+}
